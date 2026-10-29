@@ -1,19 +1,20 @@
-# Anforderungen — Terminplaner für die THM
 
-<!-- Aufgabe 3 des Übungsblatts, ohne Hilfsmittel. Je Zeile eine
-     Anforderung in einem Satz, dazu der Stakeholder, von dem sie stammt,
-     und die Art: FA, QA oder RB. Mindestens acht Anforderungen, davon
-     mindestens zwei je Art; die Nummern laufen A01, A02 … Löschen Sie die
-     Kommentare, sobald Sie fertig sind. -->
+# Anforderungen – Terminplaner für die THM
 
 | Nr. | Anforderung | Stakeholder | Art |
-|---|---|---|---|
-| A01 | … | … | … |
+|-----|-------------|-------------|-----|
+| A01 | Studierende können sich mit ihrem Hochschulkonto anmelden. | Studierende | FA |
+| A02 | Studierende können verfügbare Prüfungstermine einsehen und buchen. | Studierende | FA |
+| A03 | Studierende können ihre gebuchten Termine wieder stornieren. | Studierende | FA |
+| A04 | Lehrende können Prüfungstermine erstellen und verwalten. | Lehrende | FA |
+| A05 | Die Buchungsseite soll auch bei hoher Auslastung innerhalb von zwei Sekunden reagieren. | Studierende | QA |
+| A06 | Die Buchungsseite muss mit einem Screenreader vollständig bedienbar sein. | Studierende mit Sehbehinderung | QA |
+| A07 | Die Anmeldung darf ausschließlich über das Hochschulkonto erfolgen. | Hochschul-IT | RB |
+| A08 | Personenbezogene Daten müssen gemäß der EU-DSGVO verarbeitet werden. | Datenschutzbeauftragte | RB |
+| A09 | Das System muss im Rechenzentrum der THM betrieben werden. | Hochschul-IT | RB |
 
 ## Eine Anforderung, die niemand ausgesprochen hat
 
-<!-- Nummer der Anforderung aus der Tabelle, welche im Gespräch niemand
-     ausgesprochen hat, obwohl sie gilt, und in ein bis zwei Sätzen, warum
-     sie niemand genannt hat. -->
+**A03 – Studierende können ihre gebuchten Termine wieder stornieren.**
 
-…
+Diese Anforderung halte ich für wichtig, weil Studierende beispielsweise krank werden oder einen Termin aus anderen Gründen nicht wahrnehmen können. Durch die Stornierung wird der Platz wieder frei und kann von anderen Studierenden gebucht werden.
